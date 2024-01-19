@@ -16,6 +16,12 @@
     padding-right: 12px;
 }
 
+.mx_1920 {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .mx_1320 {
     max-width: 1320px;
     margin-left: auto;
@@ -139,6 +145,19 @@
     margin-top: 35px;
 }
 
+.ms_15 {
+    margin-left: 15px;
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+.py_20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* -----------nav ---------- */
 .join_btn {
     border: none;
@@ -146,6 +165,8 @@
     border-radius: 5px;
     background: var(--primary-color, #96BB7C);
     transition: all 200ms ease-in;
+    gap: 15px;
+    display: flex;
 }
 
 .join_btn:hover {
@@ -214,8 +235,9 @@
 }
 
 .pencil {
-    border-radius: 20px;
-    max-width: 638px;
+    border-radius: 16px;
+    max-width: 688px;
+    height: 363px;
 }
 
 .play_btn {
@@ -229,7 +251,7 @@
 /* ------ most ------- */
 .course_card {
     max-width: 328px;
-    padding: 35px 40px 35px 40px;
+    padding: 35px 40px;
     background: var(--light-background-color, #FFF);
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
     transition: all 200ms linear;
@@ -250,6 +272,10 @@
     width: 94px;
     height: 7px;
     background: var(--danger-color, #E74040);
+}
+
+.tracher {
+    max-width: 544px;
 }
 
 /* ---------- client --------- */
@@ -295,7 +321,10 @@
 .leran_btn {
     border-radius: 37px;
     border: 1px solid var(--primary-color, #96BB7C);
-    padding: 10px 20px;
+    padding: 9px 17px;
+    gap: 10px;
+    display: flex;
+    background: none;
 }
 
 .leran_btn:hover {
@@ -309,7 +338,7 @@
 
 /* ------------- education --------- */
 .quality_card {
-    padding: 79px 20px 70px 20px;
+    padding: 79px 40px 70px 40px;
     background: var(--light-background-color, #FFF);
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
     transition: all 200ms linear;
@@ -364,7 +393,7 @@
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #E6E6E6;
     background: var(--primary-color, #96BB7C);
-    padding: 15px 22.5px;
+    padding: 12px 18px;
     transition: all 200ms linear;
 }
 
@@ -437,6 +466,10 @@ body.scrolled #back-to-top {
 
     .mt_156 {
         margin-top: 80px;
+    }
+
+    .pt_61 {
+        padding-top: 61px;
     }
 }
 
