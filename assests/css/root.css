@@ -50,11 +50,9 @@
     }
 }
 
-/* @media (max-width:576px) {
+@media (max-width:576px) {
     :root {
-        --fs-md: 18px;
-        --fs-lg: 20px;
-        --fs-xl: 32px;
-        --fs-2xl: 42px;
+        --fs-xl: 30px;
+        --fs-2xl: 40px;
     }
-} */
+}
