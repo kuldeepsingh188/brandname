@@ -94,7 +94,7 @@
 }
 
 .bg_darkblue {
-    background: var(--dark-background-color, #2D4059);
+    background: #2D4059;
 }
 
 /* ------------ line-hight ------------ */
